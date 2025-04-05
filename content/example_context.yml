@@ -1,0 +1,31 @@
+today_date: "April 5, 2025"
+
+Matter:
+  Client:
+    Name: "Jane Doe"
+    FirstName: "Jane"
+    Address: "123 Peach Street, Atlanta, GA 30303"
+  Description: "Auto Accident – Rear-End Collision on I-75"
+  Custom:
+    DateOfLoss: "March 28, 2025"
+    ClaimNumber: "A123456789"
+    PolicyNumber: "POL987654321"
+
+Insurance:
+  AdjusterName:
+    FullName: "Michael Smith"
+    EmailAddress: "msmith@gamutuains.com"
+  InsuranceName: "Georgia Mutual Insurance"
+  InsuranceAddress: |
+    Georgia Mutual Insurance  
+    Claims Department  
+    456 Insurance Blvd  
+    Atlanta, GA 30301
+
+Firm:
+  Name: "Ledyard Law Group"
+  Attorney: "Travis Crawford"
+  PhoneNumber: "(410) 807-8077"
+
+User:
+  Initials: "TC"

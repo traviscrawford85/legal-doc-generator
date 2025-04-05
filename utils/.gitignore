@@ -1,0 +1,27 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Output files
+output/
+*.docx
+
+# Temporary or system files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+
+# Signature images (optional: ignore if sensitive)
+signatures/
+output/

@@ -1,0 +1,56 @@
+Document
+│
+├── Section (section1)
+│   ├── Header
+│   │   └── Paragraph → Run ("Ledyard Law Group - Confidential")
+│   ├── Footer
+│   │   └── Paragraph → Run (Page Number Field)
+│   ├── Page Setup (margins, orientation)
+│   └── Body Content
+│       ├── Paragraph (para1)
+│       │   ├── Run (run1): "Via Fax: "
+│       │   └── Run (run2): "<<User.Email>>" [bold=True, underline=True]
+│       │
+│       ├── Paragraph (para2)
+│       │   └── Run: "Insurance Address Block Line 1"
+│       │
+│       ├── Table (table1) – "RE: Section"
+│       │   ├── Row 1
+│       │   │   ├── Cell 1: "Claimant:" [bold]
+│       │   │   └── Cell 2: "<<Matter.Client.Name>>"
+│       │   └── ...
+│       │
+│       ├── Paragraph (salutation)
+│       │   └── Run: "Dear <<AdjusterName>>,"
+│       │
+│       ├── Paragraph (body)
+│       │   └── Run: "Please be advised that our firm..."
+│       │
+│       ├── Paragraph (closing)
+│       │   └── Run: "Sincerely,"
+│       │
+│       ├── Paragraph (signature)
+│       │   └── Run: [signature.png]
+│       │
+│       ├── Paragraph (attorney name)
+│       │   └── Run: "<<Firm.Attorney>>"
+│       │
+│       └── Paragraph (initials)
+│           └── Run: "PN/<<User.Initials>>"
+│
+├── Page Break (if needed)
+│
+└── Section (section2) (optional)
+
+📌 Visual Breakdown
+Document holds everything
+
+Sections define margins, orientation, and contain headers/footers
+
+Paragraphs are the core text blocks
+
+Runs are inline text with styles
+
+Tables live alongside paragraphs, great for aligned data
+
+Headers/Footers can hold static or dynamic content like page numbers or firm branding
