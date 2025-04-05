@@ -7,66 +7,59 @@ This is a modular, Python-based boilerplate project for generating legal documen
 ## 📁 Project Structure
 
 
+
 ---
 
 ## 🚀 How It Works
 
-1. **Templates**: Written in Jinja2, they contain Clio merge field placeholders (e.g., `<<Matter.Client.Name>>`).
-2. **Styles**: YAML files define paragraph, font, and margin settings.
-3. **Context**: YAML file that temporarily fills in merge values for previewing/testing.
-4. **Document Rendering**:
-   - The script renders the Jinja2 template with values from `content/`.
-   - Then it applies formatting using the corresponding style profile.
-   - Output is saved to the `output/` folder.
+1. **Templates**: Written in Jinja2, using Clio merge field syntax (`<<Matter.Client.Name>>`)
+2. **Styles**: YAML files defining font, spacing, and alignment settings
+3. **Context**: YAML test data files (mimic a Clio Matter)
+4. **Script**: Renders Jinja2 + context, then applies styles to output `.docx`
 
 ---
 
 ## ✅ Usage (Windows)
 
-1. Install Python (3.9+ recommended)
-2. Run the following from the project directory:
+1. Install Python 3.9+
+2. From the project directory, run:
 
 ```bash
 pip install -r requirements.txt
 python generator.py
+
 ```
 3. Check the output/ directory for the generated .docx file. 
 
 ## 🔄 Clio Merge Fields
 
-To prepare your templates for use within Clio Manage, use Clio's merge field syntax: 
+Use Clio's merge field 
+syntax: (`<<Matter.Client.Name>>`) (`<<Matter.Custom.DateOfLoss>>`)
 
-Example:
-
-```
-<<Matter.Client.Name>>
-<<Matter.Custom.DateOfLoss>>
-```
-
-These will be dynamically filled by Clio when the document is generated inside a client matter.
+You can test with content/example_context.yml, and later plug these templates directly into Clio Manage.
 
 ## 🔧 Dependancies
 
-* ```python-docx``` - DOCX creation and styling
-* ```jinja2``` - Content Templating
-```PyYAML``` - Style and context configuration
+* ```python-docx``` - Word document creation
+* ```jinja2``` - Template engine
+* ```PyYAML``` - YAML parsing for context + style files
 
 ## 🧠 Tips
 
-* Keep styles centralized so multiple templates can share formatting rules
-* Use placeholder-friendly text in content files for testing
-* Expand ```utils/style_applier.py``` to support more advanced styling like tables and headers.
+* Centralize style rules in styles/ to keep formatting consistent across docs
+* Reuse utils/ for signature blocks, headers, tables, etc.
+* Use the context files like test matters to preview formatting
 
 ## 📌 Status
 
-In progress - new templates, advanced formatting options, and CLI enhancements are being added weekly. 
+🚧 In Progress
+Actively developing new templates, formatting controls, and CLI support.
 
 
 ---
 
-## 👤 Author
-
-**Travis Crawford**  
-IT Specialist | Legal Tech Developer  
-[my email](solutionpartner@cfelab.com)
+👤 Author
+Travis Crawford
+IT Specialist | Legal Tech Developer
+📧 solutionpartner@cfelab.com |
 [linkedin](https://www.linkedin.com/in/t-crawford29)
