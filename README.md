@@ -62,4 +62,4 @@ Actively developing new templates, formatting controls, and CLI support.
 Travis Crawford
 IT Specialist | Legal Tech Developer
 📧 solutionpartner@cfelab.com |
-[linkedin](https://www.linkedin.com/in/t-crawford29)
+[linkedin](https://www.linkedin.com/in/crawford-t)
