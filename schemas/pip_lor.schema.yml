@@ -1,0 +1,13 @@
+schema: pip_letter_of_representation
+
+required_fields:
+  - Matter.Client.Name
+  - Matter.Custom.DateOfLoss
+  - Insurance.AdjusterName.FullName
+  - Insurance.AdjusterName.EmailAddress
+  - Insurance.InsuranceName
+  - Insurance.InsuranceAddress
+  - Matter.Custom.ClaimNumber
+  - Matter.Custom.PolicyNumber
+  - Firm.Attorney
+  - User.Initials
