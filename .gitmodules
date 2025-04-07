@@ -1,0 +1,6 @@
+[submodule "tools/ocr"]
+	path = tools/ocr
+	url = https://github.com/traviscrawford85/doc-ocr-clio.git
+[submodule "tools/nlp_parser"]
+	path = tools/nlp_parser
+	url = https://github.com/traviscrawford85/nlp-legal-parser.git
