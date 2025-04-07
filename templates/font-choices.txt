@@ -1,0 +1,7 @@
+Font	Visual Metaphor	Message It Sends
+Consolas	Scrubs or mechanics overalls	Precise, no-frills, utilitarian
+Times New Roman	Off-the-rack department suit	Default, functional, but uninspired
+Garamond	Bespoke tailored suit	Elegant, historical, literary
+Equity	Tailored suit + custom briefcase	Modern, confident, legal-specific
+Calibri	Business-casual polo	Casual, tech-y, informal
+Comic Sans	Pajamas 🫣	Please no.
