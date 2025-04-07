@@ -6,7 +6,7 @@ required_fields:
   - Insurance.AdjusterName.EmailAddress
   - Insurance.InsuranceName
   - Insurance.InsuranceAddress
-  - Matter.Custom.ClaimNumber
-  - Matter.Custom.PolicyNumber
+  - Matter.Custom.ClaimNo
+  - Matter.Custom.PolicyNo
   - Firm.Attorney
-  - User.Initials
+  - Matter.CustomField.UserInitials

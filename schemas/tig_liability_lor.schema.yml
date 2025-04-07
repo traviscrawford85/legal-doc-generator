@@ -1,0 +1,17 @@
+schema: tig_liability_lor
+required_fields:
+- Date.Verbose
+- Matter.Client.Address
+- Matter.Client.Name
+- Matter.CustomField.CoachNo
+- Matter.CustomField.CrossStreets
+- Matter.CustomField.DateOfIncident
+- Matter.CustomField.DefendantsInsuranceClaimNo
+- Matter.CustomField.DescriptionOfIncident
+- Matter.CustomField.IncidentLocationCity
+- Matter.CustomField.IncidentLocationState
+- Matter.CustomField.LineNo
+- Matter.CustomField.TransitAgency
+- Matter.CustomField.UserInitials
+- Matter.Relationships.Defendant'sInsuranceCompany.Address
+- Matter.Relationships.Defendant'sInsuranceCompany.Name
