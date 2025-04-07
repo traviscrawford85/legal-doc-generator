@@ -1,0 +1,1648 @@
+Matter:
+  Number:
+    _value: 2025-00057 Mitchell,Johnathan
+    Digits: '57'
+  Description: Auto Accident
+  ClientReferenceNumber: ''
+  OriginatingAttorney:
+    _value: David Ledyard
+    Name: David Ledyard
+    JobTitle:
+      _value: Partner [PT]
+      Name: Partner
+      Initials: PT
+    Email: david@ledyardlaw.com
+    Initials: DLM
+    PhoneNumber: (410) 807-8077
+    Address:
+      _value: 36 South Charles Street, Suite 901
+      Street: 36 South Charles Street, Suite 901
+      City: Baltimore
+      State: Maryland
+      ZipCode: 21201-3020
+      Country: United States
+    Rate: '400'
+  ResponsibleAttorney:
+    _value: David Ledyard
+    Name: David Ledyard
+    JobTitle:
+      _value: Partner [PT]
+      Name: Partner
+      Initials: PT
+    Email: david@ledyardlaw.com
+    Initials: DLM
+    PhoneNumber: (410) 807-8077
+    Address:
+      _value: 36 South Charles Street, Suite 901
+      Street: 36 South Charles Street, Suite 901
+      City: Baltimore
+      State: Maryland
+      ZipCode: 21201-3020
+      Country: United States
+    Rate: '400'
+  Status: Open
+  PendingDate: ''
+  OpenDate:
+    _value: '45740'
+    Verbose: '45740'
+    Year: '2025'
+    Month: '3'
+    Day: '24'
+    VerboseMonth: March
+    OrdinalDay: 24th
+  CloseDate: ''
+  StatuteOfLimitationsDate: ''
+  TrustBalance: '0'
+  OperatingBalance: '0'
+  Client:
+    Name: Johnathan Mitchell
+    Prefix: Test
+    FirstName: Johnathan
+    MiddleName: ''
+    MiddleInitial: ''
+    LastName: Mitchell
+    DateOfBirth:
+      _value: '31120'
+      Verbose: '31120'
+      Year: '1985'
+      Month: '3'
+      Day: '14'
+      VerboseMonth: March
+      OrdinalDay: 14th
+    TrustBalance: '0'
+    OperatingBalance: '0'
+    Address:
+      _value: 36 S. Charles St
+      Street: 36 S. Charles St
+      City: Baltimore
+      State: MD
+      ZipCode: '21201'
+      Country: United States
+    PrimaryBillingAddress: ''
+    PrimaryWorkAddress:
+      _value: 36 S. Charles St
+      Street: 36 S. Charles St
+      City: Baltimore
+      State: MD
+      ZipCode: '21201'
+      Country: United States
+    PrimaryHomeAddress: ''
+    PrimaryOtherAddress: ''
+    PhoneNumber:
+      _value: +1 (443) 219-7653
+      Number: +1 (443) 219-7653
+    PrimaryWorkPhoneNumber: ''
+    PrimaryHomePhoneNumber:
+      _value: +1 (443) 219-7653
+      Number: +1 (443) 219-7653
+    PrimaryOtherPhoneNumber: ''
+    PrimaryMobilePhoneNumber: ''
+    PrimaryFaxNumber: ''
+    CustomField:
+      TivvisMatterNumber: ''
+      ContactHistory: ''
+      DriversLicenseIdNumber: ''
+      Deceased: ''
+      PreferredNamenickname: ''
+      BirthPlace: ''
+      ParentType: ''
+      Gender: ''
+      MaritalStatus: ''
+      MinorChild: ''
+      SocialMediaHandle: ''
+      SchoolDistricts: ''
+      SchoolLevel: ''
+      CourtLevel: ''
+      Jurisdiction: ''
+      DateOfDeath: ''
+      MethodOfCommunication: ''
+      IsDisabled:
+        _value: 'FALSE'
+        Verbose: 'No'
+      HomeSchooled:
+        _value: ''
+        Verbose: 'No'
+      ClientWas: ''
+      County: ''
+      EmergencyContacts:
+        _value: ''
+        Verbose: 'No'
+      SocialSecurityNumber: ''
+      SchoolDistrict: ''
+      EmergencyContactName: ''
+      PoliceOfficer:
+        _value: ''
+        Verbose: 'No'
+      StaffPositiontitle: ''
+      StudentName: ''
+      AgeIncidentOccurred: ''
+      RelationshipToMinorstudent: ''
+      DoYouHaveSocialMedia:
+        _value: ''
+        Verbose: 'No'
+      CallingOnBehalfOf: ''
+      CallingOnBehalfOfSomeone:
+        _value: ''
+        Verbose: 'No'
+      CallersName: ''
+      RelationshipToStudent: ''
+      SchoolType: ''
+      SchoolName: ''
+    Email:
+      _value: testc8435@gmail.com
+      Work: ''
+      Home: testc8435@gmail.com
+      Other: ''
+    CompanyName: ''
+    PaymentProfile:
+      _value: Default
+      InterestRate: '0'
+      InterestType: simple
+      InterestPeriod: '0'
+      GracePeriod: '30'
+      DiscountRate: '0'
+      DiscountPeriod: '0'
+  CustomField:
+    TivvisMatterNumber: ''
+    DateOfIncident:
+      _value: '45672'
+      Verbose: '45672'
+      Year: '2025'
+      Month: '1'
+      Day: '15'
+      VerboseMonth: January
+      OrdinalDay: 15th
+    TimeOfIncident:
+      _value: ''
+      24h_format: ''
+    IncidentLocationStreetName: 100 Pratt St
+    IncidentLocationCity: Baltimore
+    DescriptionOfIncident: The Defendant failed to brake in time at a red light, striking
+      client’s vehicle from behind.
+    DefendantsVehicleVin: 1FM5K8D83JGA12345
+    DefendantsVehicleTagNo: CA789654
+    DefendantsVehicleDamage: Front-end damage
+    DefendantsInsurancePolicyNo: SF987654321
+    DefendantsInsuranceClaimNo: DF20250123
+    ClientsVehicleVin: ''
+    ClientAutoInsurancePolicyNo: G123456789
+    WhoWasNotified: Police &amp; Employer
+    FirstDayNotWorked: ''
+    LastDateOfOccExposure: ''
+    HistoryOfProblemDetail: ''
+    ClientsVehicleTitleNo: ''
+    DefendantsLiabilityLimits: '100000'
+    OriginatingLawyer: ''
+    DateOfDeath: ''
+    ClientInjuriesSustained: Neck and Lower Back
+    XraysctScanscatScansmris:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    WhatTypeOfWorkWhenInjured: ''
+    InjuredBodyPart: Neck and Lower Back
+    EvidenceOfDanger: ''
+    AgeIncidentOccurred: ''
+    AttendingZonedSchool:
+      _value: ''
+      Verbose: 'No'
+    SchoolGradeWincident: ''
+    SchoolPersonnelInvolved:
+      _value: ''
+      Verbose: 'No'
+    HowDidParentFindOut: ''
+    SubCategory: 'Public Transportation '
+    ClientDisabilityDescription: ''
+    LearningPlanDescribed: ''
+    DisciplineDescription: ''
+    AdditionalDisciplines: ''
+    CrossStreets: The intersection of Charles St. and Pratt St.
+    DefendantsVehicleType: Transit Bus
+    UrgentCareTreatmentDesc: cervical spine
+    UrgentCareTreatmentDate:
+      _value: '45673'
+      Verbose: '45673'
+      Year: '2025'
+      Month: '1'
+      Day: '16'
+      VerboseMonth: January
+      OrdinalDay: 16th
+    UrgentCareFollowUp: ''
+    UrgentFollowUpDescription: ''
+    DescriptionOfWork: ''
+    Ercp: ''
+    ErcpDoctor: ''
+    ErcpDate: ''
+    ErcpHospitalLocation: ''
+    Ultrasound: ''
+    UltrasoundDate: ''
+    SubsequentErcp: ''
+    SubsequentErcpDate: ''
+    SubStentsDescription: ''
+    TubePlacementDetails: ''
+    Jaundice: ''
+    BowelDamageDescription: ''
+    SubsequentSurgeryDescription: ''
+    ExploratoryOpDescription: ''
+    RouxenygasBypassDetails: ''
+    LiverDamageDetails: ''
+    InfectionTypeDetails: ''
+    PhotoIncisions: ''
+    PharmacyUsedDetails: ''
+    Outdoors: ''
+    WeatherFactorDescription: reduced braking visibility
+    PreventionDescription: ''
+    EvidenceBusinessKnew: ''
+    EmployeeKnowledge: ''
+    EmployeeKnowledgeDescription: ''
+    TypeOfFootwear: ''
+    DefendantVideosTaken:
+      _value: 'FALSE'
+      Verbose: 'No'
+    OvernightHospitalization: 'No'
+    TakenInAmbulance: 'No'
+    PrimaryCareProviderDates: ''
+    MedProviderTreatment: ''
+    MedicalProviderFollowUp: ''
+    MentalProviderFollowUp: ''
+    TreatingPhysicianFollowUp: ''
+    MentalHealthNeeded: ''
+    DamageToClothes: ''
+    OtherItemsDamaged: ''
+    SurgeryprocedureDescription: ''
+    DefProviderFollowUpDesc: ''
+    CurrentHealthStatus: Recovering, ongoing therapy
+    PriorStatusOfHealth: ''
+    PermfutureStatusOfHealth: ''
+    AmputationRequired: ''
+    MedicalCareProvided: X-rays, pain meds
+    DefendantsVehicleTowed: 'No'
+    MedpayRecoveryAmount: ''
+    SameInsTimeOfLoss: ''
+    PipRecoveryAmount: ''
+    DefendantsVehicleTitleNo: MD12345678
+    PoliceReportNumber: ''
+    PositionTitle: ''
+    MissedWorkReason: ''
+    NoDaysAnticipated: ''
+    FullDayWageAmount: ''
+    AverageOtAmount: ''
+    ReassignedDuties: ''
+    ReassignDescription: ''
+    ExpectedReturnWork: ''
+    BodyPartDismembered: ''
+    SpokeToInsuranceCo: ''
+    PermissionToRecord: ''
+    ZendeskIncidentNo: ''
+    PriorInjury: ''
+    PriorInjuryDate: ''
+    PriorInjuries: ''
+    PriorIllness: ''
+    PriorIllnessDescription: ''
+    PriorConditions: ''
+    LocationOfDeath: ''
+    DeathCertCauseOfDeath: ''
+    AutopsyLocation: ''
+    PriorMedicalHistory:
+      _value: ''
+      Verbose: 'No'
+    VascularDisease:
+      _value: ''
+      Verbose: 'No'
+    VeinGrafting:
+      _value: ''
+      Verbose: 'No'
+    HeartDisease:
+      _value: ''
+      Verbose: 'No'
+    Stents:
+      _value: ''
+      Verbose: 'No'
+    OpenHeartSurgery:
+      _value: ''
+      Verbose: 'No'
+    Stroke:
+      _value: ''
+      Verbose: 'No'
+    Hernia:
+      _value: ''
+      Verbose: 'No'
+    ObgynOps:
+      _value: ''
+      Verbose: 'No'
+    Amputations:
+      _value: ''
+      Verbose: 'No'
+    Seizures:
+      _value: ''
+      Verbose: 'No'
+    HeadInjuries:
+      _value: ''
+      Verbose: 'No'
+    BrokenBones:
+      _value: ''
+      Verbose: 'No'
+    Diabetes:
+      _value: ''
+      Verbose: 'No'
+    Hypertension:
+      _value: ''
+      Verbose: 'No'
+    LiverDisease:
+      _value: ''
+      Verbose: 'No'
+    KidneyDisease:
+      _value: ''
+      Verbose: 'No'
+    EyeInjuryOps:
+      _value: ''
+      Verbose: 'No'
+    BladderProblems:
+      _value: ''
+      Verbose: 'No'
+    BladderSling:
+      _value: ''
+      Verbose: 'No'
+    GastricBypass:
+      _value: ''
+      Verbose: 'No'
+    Colonoscopy:
+      _value: ''
+      Verbose: 'No'
+    Cancer:
+      _value: ''
+      Verbose: 'No'
+    Hepatitis:
+      _value: ''
+      Verbose: 'No'
+    AutoImmuneDisease:
+      _value: ''
+      Verbose: 'No'
+    GallBladderDiseasesurgery:
+      _value: ''
+      Verbose: 'No'
+    Appendicitis:
+      _value: ''
+      Verbose: 'No'
+    Sepsis:
+      _value: ''
+      Verbose: 'No'
+    Dementia:
+      _value: ''
+      Verbose: 'No'
+    Pancreatitis:
+      _value: ''
+      Verbose: 'No'
+    Fibromyalgia:
+      _value: ''
+      Verbose: 'No'
+    AnyMentalHealthCare:
+      _value: ''
+      Verbose: 'No'
+    Copd:
+      _value: ''
+      Verbose: 'No'
+    TransplantSurgery:
+      _value: ''
+      Verbose: 'No'
+    OtherOperations:
+      _value: ''
+      Verbose: 'No'
+    ClientWorkCausedDisease: ''
+    DetailsOfOccupationalInjury: ''
+    HourlyRate: ''
+    Ongoing: ''
+    IncidentLocationStreetNo: ''
+    IncidentLocationZipCode: '21201'
+    WccCommissionClaimNo: ''
+    ServiceMethod: ''
+    ServiceDates: ''
+    CaseNumber: CV-2024-009876
+    ComplaintFiled: ''
+    ResponseToComplaint: ''
+    PrecedentCaseLaw: ''
+    Jurisdiction: Baltimore City
+    SettlementAmount: ''
+    Expenses: ''
+    Liens: '2500'
+    SettlementStatement: ''
+    CaseCaption: Johnathan Mitchell v. Jane Doe
+    PermissionToSignWccForm: ''
+    DateOfSurgeryprocedure: ''
+    MentalTreatmentType: ''
+    ClientFullDayWageAmount: ''
+    WhatWasTold: ''
+    IncidentLocationSuite: '200'
+    PracticeArea: ''
+    DefendantsVehicleOwner: Mike Thompson
+    CallingForSomeoneElse:
+      _value: ''
+      Verbose: 'No'
+    TreatmentTypeForInjury: ''
+    DurationOfIncident: 5 Minutes
+    GovernmentEntityName: ''
+    WeatherOnIncidentDay: Raining
+    WeatherDayBefore: ''
+    DescribeTheWarningSigns: ''
+    SchoolIncidentLocation: ''
+    StaffWitnesses: ''
+    StudentWitnesses: ''
+    MedicalTreatmentRequired: 'Yes'
+    TreatmentDetails: ''
+    LiabilityAdmitted: ''
+    DateOfInjury:
+      _value: '45672'
+      Verbose: '45672'
+      Year: '2025'
+      Month: '1'
+      Day: '15'
+      VerboseMonth: January
+      OrdinalDay: 15th
+    InjuryType: Other
+    CauseOfInjurydescription: Whiplash
+    WorkStatusAfterInjury: ''
+    CompensationReceived: ''
+    CompensationAmount: ''
+    WccInsuranceClaimNo: ''
+    WccClaimDescription: ''
+    RoadConditions: Wet
+    AdjusterNotesdetails: ''
+    ClientRole: Defendant
+    CourtName:
+      Name: Circuit Court for Baltimore City
+      Prefix: ''
+      FirstName: ''
+      MiddleName: ''
+      MiddleInitial: ''
+      LastName: ''
+      DateOfBirth: ''
+      TrustBalance: '0'
+      OperatingBalance: '0'
+      Address:
+        _value: 111 N Calvert St
+        Street: 111 N Calvert St
+        City: Baltimore
+        State: MD
+        ZipCode: '21202'
+        Country: United States
+      PrimaryBillingAddress: ''
+      PrimaryWorkAddress: ''
+      PrimaryHomeAddress: ''
+      PrimaryOtherAddress:
+        _value: 111 N Calvert St
+        Street: 111 N Calvert St
+        City: Baltimore
+        State: MD
+        ZipCode: '21202'
+        Country: United States
+      PhoneNumber:
+        _value: 410-396-5188
+        Number: 410-396-5188
+      PrimaryWorkPhoneNumber: ''
+      PrimaryHomePhoneNumber: ''
+      PrimaryOtherPhoneNumber:
+        _value: 410-396-5188
+        Number: 410-396-5188
+      PrimaryMobilePhoneNumber: ''
+      PrimaryFaxNumber: ''
+      CustomField:
+        TivvisMatterNumber: ''
+        ContactHistory: ''
+        DriversLicenseIdNumber: ''
+        Deceased: ''
+        PreferredNamenickname: ''
+        BirthPlace: ''
+        ParentType: ''
+        Gender: ''
+        MaritalStatus: ''
+        MinorChild: ''
+        SocialMediaHandle: ''
+        SchoolDistricts: ''
+        SchoolLevel: ''
+        CourtLevel: Circuit Court
+        Jurisdiction: Baltimore City
+        DateOfDeath: ''
+        MethodOfCommunication: ''
+        IsDisabled:
+          _value: ''
+          Verbose: 'No'
+        HomeSchooled:
+          _value: ''
+          Verbose: 'No'
+        ClientWas: ''
+        County: ''
+        EmergencyContacts:
+          _value: ''
+          Verbose: 'No'
+        SocialSecurityNumber: ''
+        SchoolDistrict: ''
+        EmergencyContactName: ''
+        PoliceOfficer:
+          _value: ''
+          Verbose: 'No'
+        StaffPositiontitle: ''
+        StudentName: ''
+        AgeIncidentOccurred: ''
+        RelationshipToMinorstudent: ''
+        DoYouHaveSocialMedia:
+          _value: ''
+          Verbose: 'No'
+        CallingOnBehalfOf: ''
+        CallingOnBehalfOfSomeone:
+          _value: ''
+          Verbose: 'No'
+        CallersName: ''
+        RelationshipToStudent: ''
+        SchoolType: ''
+        SchoolName: ''
+      Email:
+        _value: baltimorecitylockboxfilings@mdcourts.gov
+        Work: baltimorecitylockboxfilings@mdcourts.gov
+        Home: ''
+        Other: ''
+      CompanyName: ''
+      PaymentProfile:
+        _value: Default
+        InterestRate: '0'
+        InterestType: simple
+        InterestPeriod: '0'
+        GracePeriod: '30'
+        DiscountRate: '0'
+        DiscountPeriod: '0'
+    ClientsVehicleTagNo: ''
+    TreatmentProviders: ''
+    StartEndDates: ''
+    RehabilitationDetails: ''
+    CaseStatus: ''
+    AttorneyAssigned: ''
+    LitigationStage: ''
+    Disbursements: ''
+    StatementsRegardingInjury: ''
+    ClientVehicleDamageDesc: Rear bumper and trunk
+    ClientWas: Driver
+    LengthOfEmployment: ''
+    TreatmentType: ''
+    PriorClaims: ''
+    StatementFromDefProvider: ''
+    PriorErcp: ''
+    WhatCouldHaveBeenDone: ''
+    EmployeeNames: ''
+    HowCouldYouHaveAvoided: ''
+    WhoPhotographed: ''
+    ProviderDidOrDidntDo: ''
+    DateSymptomsNoticed:
+      _value: '45672'
+      Verbose: '45672'
+      Year: '2025'
+      Month: '1'
+      Day: '15'
+      VerboseMonth: January
+      OrdinalDay: 15th
+    HospitalZipCode: ''
+    HospitalName: ''
+    BodyPartsImaged: cervical and spine
+    SubsequentDoctorComments: ''
+    MentalHealthProviderName: ''
+    DamageToClothesDesc: ''
+    WhyWasRecommendationDeclined: ''
+    WhatStateIsVehicleTaggedIn: Maryland
+    TowCompanyName: ''
+    AmountRecovered: ''
+    PropertyDamageAdjusterName: ''
+    PoliceOfficerBadgeNo: ''
+    PoliceOfficerDistrict: ''
+    TicketsAssignedToWho: ''
+    AccompaniedByWho: ''
+    MedicalAssistanceMemberNo: ''
+    HealthInsuranceMemberNo: '55503579'
+    WasHealthInsuranceUsed: 'Yes'
+    HealthInsuranceName: AETNA
+    HealthInsuranceGroupNo: MXG898033
+    HealthInsurancePolicyNo: '98774566'
+    JobPosition: ''
+    WhatIsYourRegularWork: ''
+    WhatWasYourWorkWhenInjured: ''
+    DateReturnedToWork: ''
+    FiledBankruptcy: ''
+    IncidentRelatedToDisability: ''
+    Subcategory: ''
+    ClientAutoInsuranceClaimNo: CLM20250123
+    AddressSameAsInsuranceId: 'Yes'
+    DisciplinaryHistory: ''
+    ClientPolicyNo: ''
+    CopyOfDeathCert:
+      _value: ''
+      Verbose: 'No'
+    MedicaidmedicalAssistance:
+      _value: ''
+      Verbose: 'No'
+    RelatedMatter: ''
+    Defendantentity: ''
+    DatesOfPriorClaims:
+      _value: '45628'
+      Verbose: '45628'
+      Year: '2024'
+      Month: '12'
+      Day: '2'
+      VerboseMonth: December
+      OrdinalDay: 2nd
+    TrialDate:
+      _value: '45918'
+      Verbose: '45918'
+      Year: '2025'
+      Month: '9'
+      Day: '18'
+      VerboseMonth: September
+      OrdinalDay: 18th
+    TrialTime:
+      _value: '0.395833333'
+      24h_format: '0.395833333'
+    Courtroom: ''
+    JudgeName: ''
+    OpposingCounsel: ''
+    ReceivedDate: ''
+    SettlementStatus: ''
+    CaseFilingDate: ''
+    EmployerInsuranceCompanyName: ''
+    FundingSource: ''
+    FundingAmount: ''
+    FundingDate: ''
+    RepaymentTerms: ''
+    FundingStatus: ''
+    HealthInsuranceType: Commercial Health Insurance
+    TypeOfPriorClaims: ''
+    PipPolicy: ''
+    PipWaiver: ''
+    MedpayPolicy: ''
+    MedpayWaiver: ''
+    WhoReportedIncidentToInsCo: Client
+    MedicalRecords:
+      _value: 'FALSE'
+      Verbose: 'No'
+    HowManyOccupants: '2'
+    NamesIfNotSeatBelted: Jane Doe
+    WhereWereOccupantsSeated: Front Passenger
+    CourtLevel: Circuit
+    PrivateAutopsyLocation: ''
+    PrivateAutopsyCauseOfDeath: ''
+    VideoDescription: ''
+    DateVideosTaken: ''
+    DefendantPhotosTaken:
+      _value: 'FALSE'
+      Verbose: 'No'
+    DefendantPhotoDescription: ''
+    DateDefendantVideosTaken: ''
+    WhoCapturedVideo: ''
+    DefendantVideoDescription: ''
+    DateDefendantPhotosTaken: ''
+    PriorSimilarIncidents: 'No'
+    HowLongWasSeries: Rear-End Collision
+    PersonnelKnowledge: ''
+    PersonnelInvolvedDescription: ''
+    IncidentReport:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ReturnToFullDuty: ''
+    FullDutyDate: ''
+    FollowupCareDates:
+      _value: '45703'
+      Verbose: '45703'
+      Year: '2025'
+      Month: '2'
+      Day: '15'
+      VerboseMonth: February
+      OrdinalDay: 15th
+    MedpayCoverage: ''
+    MedpayDeclarationPage: ''
+    MedpayInsuranceAmount: ''
+    TicketDescription: ''
+    StentsDate: ''
+    DidTheClientReportInjuries: 'Yes'
+    AutopsyCauseOfDeath: ''
+    IncidentReportedToInsCo:
+      _value: 'FALSE'
+      Verbose: 'No'
+    DrivingForRideshare:
+      _value: 'FALSE'
+      Verbose: 'No'
+    VehicleOwner:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    RoadConstruction:
+      _value: 'FALSE'
+      Verbose: 'No'
+    Employed:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    AnyOccupantsInYourVehicle:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    PoliceCalled:
+      _value: 'FALSE'
+      Verbose: 'No'
+    PoliceReportFiled:
+      _value: 'FALSE'
+      Verbose: 'No'
+    DefendantsInsuranceName: ''
+    ImeDate: ''
+    ImeTime:
+      _value: ''
+      24h_format: ''
+    IsPolicyHolder:
+      _value: ''
+      Verbose: 'No'
+    TreatingPhysicianName: Primary
+    BodilyInjuryCoverage: ''
+    AdditionalInformation: ''
+    EmploymentType: ''
+    PayRatehourlyOrAnnual: ''
+    PayFrequency: ''
+    PipCoverageAmount: ''
+    TicketsIssued:
+      _value: 'FALSE'
+      Verbose: 'No'
+    LiabilityPolicyLimitsBi: '100000'
+    LiabilityPolicyLimitsPd: '25000'
+    UmuimMotorist: 'Yes'
+    LearningPlan504iepbip:
+      _value: ''
+      Verbose: 'No'
+    MedicaidmedicalAssistanceNo: ''
+    OccupationalDisease:
+      _value: ''
+      Verbose: 'No'
+    NoticeOfIncidentGiven:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    DatePhotographed:
+      _value: '45712'
+      Verbose: '45712'
+      Year: '2025'
+      Month: '2'
+      Day: '24'
+      VerboseMonth: February
+      OrdinalDay: 24th
+    WitnessesToIncident:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ImagingDetails: ''
+    WarningsPosted:
+      _value: ''
+      Verbose: 'No'
+    UserInitials: TC
+    ClientType: ''
+    DatePipCheckReceived: ''
+    OccupantsSeatBelted:
+      _value: ''
+      Verbose: 'No'
+    GovernmentAgencyName: ''
+    NameOfEmployer: BGE
+    ImmediateVisibleInjuries:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    WhenDidTheyTell: ''
+    RelationToWitness: ''
+    TotalNoDaysInpatient: ''
+    PipDeclarationPage:
+      _value: 'FALSE'
+      Verbose: 'No'
+    PhotoDescription: ''
+    PipCoverage: ''
+    WhereDidYouGoForTreatment: Urgent Care
+    ReceiptForDamagedItem:
+      _value: 'FALSE'
+      Verbose: 'No'
+    EmployerNatureOfWork: ''
+    Hospitalized:
+      _value: 'FALSE'
+      Verbose: 'No'
+    VehicleType: Private Passenger Vehicle
+    VehicleTaggedInMaryland:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    SecurityFootageDescription: ''
+    HowManyWitnesses: ''
+    WasPersonnelInvolved:
+      _value: 'FALSE'
+      Verbose: 'No'
+    AccompaniedByAnyone:
+      _value: 'FALSE'
+      Verbose: 'No'
+    CouldClientAvoidIncident:
+      _value: 'FALSE'
+      Verbose: 'No'
+    IncidentLocationCounty: Baltimore City
+    InjuryReportedToInsCo:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    DidThisOccurInABusiness:
+      _value: ''
+      Verbose: 'No'
+    DisciplinedBySchool:
+      _value: ''
+      Verbose: 'No'
+    FollowupCareScheduled:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    GradeLevel: ''
+    BodyShopName: ''
+    MethodOfDelivery: ''
+    NoOfDaysMissed: ''
+    OtherInsuranceName: ''
+    OtherInsurancePolicyNo: ''
+    OtherInsuranceGroupNo: ''
+    PersonnelRolesInvolved: ''
+    SchoolName: ''
+    DeclinedRecommendedTreatment:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ClientVehicleDamage:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    PhysicalDamageLocations: Rear
+    DefVehicleTaggedInMaryland:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    WerePhotosTaken: ''
+    WhatWereYouLookingAt: ''
+    WorksOvertime:
+      _value: ''
+      Verbose: 'No'
+    AnticipatedMissWork:
+      _value: ''
+      Verbose: 'No'
+    HaveYouReturnedToWork:
+      _value: ''
+      Verbose: 'No'
+    EmployerProvidedMedical:
+      _value: ''
+      Verbose: 'No'
+    TrafficConditions: Moderate
+    InsuredState: Maryland
+    IncidentLocationState: Maryland
+    WeatherWeekBeforeIncident: Raining
+    WeatherBeforeIncident: Raining
+    OtherInsurance:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ClientsVehicleMake: Toyota
+    DefendantsVehicleMake: Gillig
+    ClientVehicleYear: '2020'
+    DefendantsVehicleYear: '2018'
+    ClientAutoInsuranceName: GEICO
+    DefAutoInsuranceName: Transit Insurance Group (TIG)
+    UninsuredMotorist: 'No'
+    WereVideosTaken:
+      _value: 'FALSE'
+      Verbose: 'No'
+    WeatherPlayFactor:
+      _value: 'FALSE'
+      Verbose: 'No'
+    VisibilityDuringIncident: ''
+    IsDefendantVehicleOwner:
+      _value: 'FALSE'
+      Verbose: 'No'
+    DefVehicleOwnerInfo: ''
+    ReceiveDisabilityBenefits:
+      _value: ''
+      Verbose: 'No'
+    IsPropertyGovernmentOwned:
+      _value: ''
+      Verbose: 'No'
+    SeriesOfEvents:
+      _value: 'FALSE'
+      Verbose: 'No'
+    PhysicalInjury:
+      _value: 'FALSE'
+      Verbose: 'No'
+    MentalTreatmentDesc: ''
+    OtherStudentsDisciplined:
+      _value: ''
+      Verbose: 'No'
+    OtherStudentsInvolved:
+      _value: ''
+      Verbose: 'No'
+    SecurityFootageAvailable:
+      _value: 'FALSE'
+      Verbose: 'No'
+    DidYouHaveSurgery:
+      _value: ''
+      Verbose: 'No'
+    PriorVisitsWSameComplaint:
+      _value: ''
+      Verbose: 'No'
+    VisitedIn2Wks:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ContactedPrimaryCare:
+      _value: 'FALSE'
+      Verbose: 'No'
+    HaveYouHadAdditionalSurgery:
+      _value: 'FALSE'
+      Verbose: 'No'
+    OtherMedicalProvider:
+      _value: 'FALSE'
+      Verbose: 'No'
+    SeenAtUrgentCare:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ContactedDefProviderAfter:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ClientVehicleModel: Camry
+    DefendantsVehicleModel: Low Floor
+    AutopsyPerformed:
+      _value: ''
+      Verbose: 'No'
+    PrivateAutopsyPerformed:
+      _value: ''
+      Verbose: 'No'
+    EstateOpened:
+      _value: ''
+      Verbose: 'No'
+    DeathCertificate:
+      _value: ''
+      Verbose: 'No'
+    DefendantsVehicleTagState: ''
+    OngoingHealthConditions:
+      _value: 'FALSE'
+      Verbose: 'No'
+    CopyOfPrivateAutopsyReport:
+      _value: ''
+      Verbose: 'No'
+    LetterOfAdministration:
+      _value: ''
+      Verbose: 'No'
+    MentalInjuryDesc: ''
+    DoCamerasShowLocation:
+      _value: 'FALSE'
+      Verbose: 'No'
+    SecurityCamerasInArea:
+      _value: 'FALSE'
+      Verbose: 'No'
+    SecurityFootageType: ''
+    RelationshipToMinorstudent: ''
+    EmployerRequestedMedicalCare:
+      _value: ''
+      Verbose: 'No'
+    WccClaimFiled:
+      _value: ''
+      Verbose: 'No'
+    DoesAnyoneAtWorkKnow:
+      _value: ''
+      Verbose: 'No'
+    InjuryReportedTo: ''
+    HasHealthInsurance:
+      _value: 'TRUE'
+      Verbose: 'Yes'
+    CopyOfAutopsyReport:
+      _value: ''
+      Verbose: 'No'
+    MissedTimeFromWork:
+      _value: ''
+      Verbose: 'No'
+    PersonnelName: ''
+    NoHoursWorkedPerWeek: ''
+    NoHoursMissedFromWork: ''
+    ClientVehicleTowed:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ReAssignedDuties:
+      _value: ''
+      Verbose: 'No'
+    CouldSchoolPreventIncident:
+      _value: ''
+      Verbose: 'No'
+    HealthInsurancePolicyHolder: ''
+    DateFirstNoticed: ''
+    ReturnVisit:
+      _value: 'FALSE'
+      Verbose: 'No'
+    WasOperationUrgent:
+      _value: 'FALSE'
+      Verbose: 'No'
+    DescribeInjuries: ''
+    DateTold: ''
+    PreventionOfIncident:
+      _value: ''
+      Verbose: 'No'
+    IsInsured:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ClientVehicleOwnerName: ''
+    AdjusterAssigned:
+      _value: 'FALSE'
+      Verbose: 'No'
+    ClientVehicleTagNo: ''
+    CallingOnBehalfOfSomeone:
+      _value: ''
+      Verbose: 'No'
+    CallingOnBehalfOf: ''
+    CallersName: ''
+    SchoolDistrict: ''
+    SchoolType: ''
+    TransitAgency: Maryland Transit Administration (MTA)
+    CoachNo: '14507'
+    LineNo: Purple Line 129
+    ClaimType: ''
+    EntityType: ''
+    MtcaApplicable: ''
+    MtcaNoticeSent:
+      _value: ''
+      Verbose: 'No'
+    MtcaNoticeDate: ''
+    MtcaDeadline: ''
+    MtcaFilingConfReceived:
+      _value: ''
+      Verbose: 'No'
+  Location: Baltimore City
+  PracticeArea: Auto Accident
+  Billing:
+    Hourly:
+      Budget: '0'
+    Description: Hourly
+    OpenInvoiceNumber: ''
+    OutstandingBalance: '0'
+  Relationships:
+    Occupant:
+      Name: Travis Crawford
+      Prefix: ''
+      FirstName: Travis
+      MiddleName: ''
+      MiddleInitial: ''
+      LastName: Crawford
+      DateOfBirth:
+        _value: '29482'
+        Verbose: '29482'
+        Year: '1980'
+        Month: '9'
+        Day: '18'
+        VerboseMonth: September
+        OrdinalDay: 18th
+      TrustBalance: '0'
+      OperatingBalance: '0'
+      Address:
+        _value: '36 S. Charles st. '
+        Street: '36 S. Charles st. '
+        City: Baltimore
+        State: MD
+        ZipCode: '21201'
+        Country: United States
+      PrimaryBillingAddress: ''
+      PrimaryWorkAddress: ''
+      PrimaryHomeAddress:
+        _value: '36 S. Charles st. '
+        Street: '36 S. Charles st. '
+        City: Baltimore
+        State: MD
+        ZipCode: '21201'
+        Country: United States
+      PrimaryOtherAddress: ''
+      PhoneNumber:
+        _value: +1 (562) 376-6409
+        Number: +1 (562) 376-6409
+      PrimaryWorkPhoneNumber: ''
+      PrimaryHomePhoneNumber:
+        _value: +1 (562) 376-6409
+        Number: +1 (562) 376-6409
+      PrimaryOtherPhoneNumber: ''
+      PrimaryMobilePhoneNumber: ''
+      PrimaryFaxNumber: ''
+      CustomField:
+        TivvisMatterNumber: ''
+        ContactHistory: ''
+        DriversLicenseIdNumber: ''
+        Deceased: ''
+        PreferredNamenickname: ''
+        BirthPlace: ''
+        ParentType: ''
+        Gender: ''
+        MaritalStatus: Single
+        MinorChild: ''
+        SocialMediaHandle: ''
+        SchoolDistricts: ''
+        SchoolLevel: ''
+        CourtLevel: ''
+        Jurisdiction: ''
+        DateOfDeath: ''
+        MethodOfCommunication: ''
+        IsDisabled:
+          _value: 'FALSE'
+          Verbose: 'No'
+        HomeSchooled:
+          _value: ''
+          Verbose: 'No'
+        ClientWas: ''
+        County: ''
+        EmergencyContacts:
+          _value: 'FALSE'
+          Verbose: 'No'
+        SocialSecurityNumber: ''
+        SchoolDistrict: ''
+        EmergencyContactName: ''
+        PoliceOfficer:
+          _value: ''
+          Verbose: 'No'
+        StaffPositiontitle: ''
+        StudentName: ''
+        AgeIncidentOccurred: ''
+        RelationshipToMinorstudent: ''
+        DoYouHaveSocialMedia:
+          _value: ''
+          Verbose: 'No'
+        CallingOnBehalfOf: ''
+        CallingOnBehalfOfSomeone:
+          _value: ''
+          Verbose: 'No'
+        CallersName: ''
+        RelationshipToStudent: ''
+        SchoolType: ''
+        SchoolName: ''
+      Email:
+        _value: it@ledyardlaw.com
+        Work: ''
+        Home: it@ledyardlaw.com
+        Other: ''
+      CompanyName: ''
+      PaymentProfile:
+        _value: Default
+        InterestRate: '0'
+        InterestType: simple
+        InterestPeriod: '0'
+        GracePeriod: '30'
+        DiscountRate: '0'
+        DiscountPeriod: '0'
+      Names: Travis Crawford
+    ClientsPipAdjuster:
+      Name: Lisa Raymond
+      Prefix: Ms.
+      FirstName: Lisa
+      MiddleName: ''
+      MiddleInitial: ''
+      LastName: Raymond
+      DateOfBirth: ''
+      TrustBalance: '0'
+      OperatingBalance: '0'
+      Address:
+        _value: 5260 Western Ave
+        Street: 5260 Western Ave
+        City: Chevy Chase
+        State: Maryland
+        ZipCode: '20815'
+        Country: United States
+      PrimaryBillingAddress: ''
+      PrimaryWorkAddress:
+        _value: 5260 Western Ave
+        Street: 5260 Western Ave
+        City: Chevy Chase
+        State: Maryland
+        ZipCode: '20815'
+        Country: United States
+      PrimaryHomeAddress: ''
+      PrimaryOtherAddress: ''
+      PhoneNumber:
+        _value: 301-555-7845
+        Number: 301-555-7845
+      PrimaryWorkPhoneNumber:
+        _value: 301-555-7845
+        Number: 301-555-7845
+      PrimaryHomePhoneNumber: ''
+      PrimaryOtherPhoneNumber: ''
+      PrimaryMobilePhoneNumber: ''
+      PrimaryFaxNumber:
+        _value: 301-555-7845
+        Number: 301-555-7845
+      CustomField:
+        TivvisMatterNumber: ''
+        ContactHistory: ''
+        DriversLicenseIdNumber: ''
+        Deceased: ''
+        PreferredNamenickname: ''
+        BirthPlace: ''
+        ParentType: ''
+        Gender: ''
+        MaritalStatus: ''
+        MinorChild: ''
+        SocialMediaHandle: ''
+        SchoolDistricts: ''
+        SchoolLevel: ''
+        CourtLevel: ''
+        Jurisdiction: ''
+        DateOfDeath: ''
+        MethodOfCommunication: ''
+        IsDisabled:
+          _value: 'FALSE'
+          Verbose: 'No'
+        HomeSchooled:
+          _value: ''
+          Verbose: 'No'
+        ClientWas: ''
+        County: ''
+        EmergencyContacts:
+          _value: ''
+          Verbose: 'No'
+        SocialSecurityNumber: ''
+        SchoolDistrict: ''
+        EmergencyContactName: ''
+        PoliceOfficer:
+          _value: ''
+          Verbose: 'No'
+        StaffPositiontitle: ''
+        StudentName: ''
+        AgeIncidentOccurred: ''
+        RelationshipToMinorstudent: ''
+        DoYouHaveSocialMedia:
+          _value: ''
+          Verbose: 'No'
+        CallingOnBehalfOf: ''
+        CallingOnBehalfOfSomeone:
+          _value: ''
+          Verbose: 'No'
+        CallersName: ''
+        RelationshipToStudent: ''
+        SchoolType: ''
+        SchoolName: ''
+      Email:
+        _value: lisa.raymond@geico.com
+        Work: lisa.raymond@geico.com
+        Home: ''
+        Other: ''
+      CompanyName: Geico Insurance
+      PaymentProfile:
+        _value: Default
+        InterestRate: '0'
+        InterestType: simple
+        InterestPeriod: '0'
+        GracePeriod: '30'
+        DiscountRate: '0'
+        DiscountPeriod: '0'
+      Names: Lisa Raymond
+    DefendantLiabilityAdjuster:
+      Name: Mark Benson
+      Prefix: Mr.
+      FirstName: Mark
+      MiddleName: ''
+      MiddleInitial: ''
+      LastName: Benson
+      DateOfBirth: ''
+      TrustBalance: '0'
+      OperatingBalance: '0'
+      Address:
+        _value: 600 E. Pratt St, Suite 102
+        Street: 600 E. Pratt St, Suite 102
+        City: Baltimore
+        State: Maryland
+        ZipCode: '21202'
+        Country: United States
+      PrimaryBillingAddress: ''
+      PrimaryWorkAddress:
+        _value: 600 E. Pratt St, Suite 102
+        Street: 600 E. Pratt St, Suite 102
+        City: Baltimore
+        State: Maryland
+        ZipCode: '21202'
+        Country: United States
+      PrimaryHomeAddress: ''
+      PrimaryOtherAddress: ''
+      PhoneNumber:
+        _value: 410-555-3281
+        Number: 410-555-3281
+      PrimaryWorkPhoneNumber:
+        _value: 410-555-3281
+        Number: 410-555-3281
+      PrimaryHomePhoneNumber: ''
+      PrimaryOtherPhoneNumber: ''
+      PrimaryMobilePhoneNumber: ''
+      PrimaryFaxNumber:
+        _value: 410-555-3285
+        Number: 410-555-3285
+      CustomField:
+        TivvisMatterNumber: ''
+        ContactHistory: ''
+        DriversLicenseIdNumber: ''
+        Deceased: ''
+        PreferredNamenickname: ''
+        BirthPlace: ''
+        ParentType: ''
+        Gender: ''
+        MaritalStatus: ''
+        MinorChild: ''
+        SocialMediaHandle: ''
+        SchoolDistricts: ''
+        SchoolLevel: ''
+        CourtLevel: ''
+        Jurisdiction: ''
+        DateOfDeath: ''
+        MethodOfCommunication: ''
+        IsDisabled:
+          _value: 'FALSE'
+          Verbose: 'No'
+        HomeSchooled:
+          _value: ''
+          Verbose: 'No'
+        ClientWas: ''
+        County: ''
+        EmergencyContacts:
+          _value: ''
+          Verbose: 'No'
+        SocialSecurityNumber: ''
+        SchoolDistrict: ''
+        EmergencyContactName: ''
+        PoliceOfficer:
+          _value: ''
+          Verbose: 'No'
+        StaffPositiontitle: ''
+        StudentName: ''
+        AgeIncidentOccurred: ''
+        RelationshipToMinorstudent: ''
+        DoYouHaveSocialMedia:
+          _value: ''
+          Verbose: 'No'
+        CallingOnBehalfOf: ''
+        CallingOnBehalfOfSomeone:
+          _value: ''
+          Verbose: 'No'
+        CallersName: ''
+        RelationshipToStudent: ''
+        SchoolType: ''
+        SchoolName: ''
+      Email:
+        _value: mark.benson@statefarm.com
+        Work: mark.benson@statefarm.com
+        Home: ''
+        Other: ''
+      CompanyName: State Farm Insurance
+      PaymentProfile:
+        _value: Default
+        InterestRate: '0'
+        InterestType: simple
+        InterestPeriod: '0'
+        GracePeriod: '30'
+        DiscountRate: '0'
+        DiscountPeriod: '0'
+      Names: Mark Benson
+    MarylandStateTreasurer:
+      Name: Dereck E. Davis
+      Prefix: Mr
+      FirstName: Dereck
+      MiddleName: E.
+      MiddleInitial: E
+      LastName: Davis
+      DateOfBirth: ''
+      TrustBalance: '0'
+      OperatingBalance: '0'
+      Address:
+        _value: 80 Calvert Street
+        Street: 80 Calvert Street
+        City: Annapolis
+        State: MD
+        ZipCode: '21401'
+        Country: United States
+      PrimaryBillingAddress: ''
+      PrimaryWorkAddress: ''
+      PrimaryHomeAddress: ''
+      PrimaryOtherAddress:
+        _value: 80 Calvert Street
+        Street: 80 Calvert Street
+        City: Annapolis
+        State: MD
+        ZipCode: '21401'
+        Country: United States
+      PhoneNumber:
+        _value: 410-260-7684
+        Number: 410-260-7684
+      PrimaryWorkPhoneNumber: ''
+      PrimaryHomePhoneNumber: ''
+      PrimaryOtherPhoneNumber:
+        _value: 410-260-7684
+        Number: 410-260-7684
+      PrimaryMobilePhoneNumber: ''
+      PrimaryFaxNumber: ''
+      CustomField:
+        TivvisMatterNumber: ''
+        ContactHistory: ''
+        DriversLicenseIdNumber: ''
+        Deceased: ''
+        PreferredNamenickname: ''
+        BirthPlace: ''
+        ParentType: ''
+        Gender: ''
+        MaritalStatus: ''
+        MinorChild: ''
+        SocialMediaHandle: ''
+        SchoolDistricts: ''
+        SchoolLevel: ''
+        CourtLevel: ''
+        Jurisdiction: ''
+        DateOfDeath: ''
+        MethodOfCommunication: ''
+        IsDisabled:
+          _value: ''
+          Verbose: 'No'
+        HomeSchooled:
+          _value: ''
+          Verbose: 'No'
+        ClientWas: ''
+        County: ''
+        EmergencyContacts:
+          _value: ''
+          Verbose: 'No'
+        SocialSecurityNumber: ''
+        SchoolDistrict: ''
+        EmergencyContactName: ''
+        PoliceOfficer:
+          _value: ''
+          Verbose: 'No'
+        StaffPositiontitle: ''
+        StudentName: ''
+        AgeIncidentOccurred: ''
+        RelationshipToMinorstudent: ''
+        DoYouHaveSocialMedia:
+          _value: ''
+          Verbose: 'No'
+        CallingOnBehalfOf: ''
+        CallingOnBehalfOfSomeone:
+          _value: ''
+          Verbose: 'No'
+        CallersName: ''
+        RelationshipToStudent: ''
+        SchoolType: ''
+        SchoolName: ''
+      Email:
+        _value: ''
+        Work: ''
+        Home: ''
+        Other: ''
+      CompanyName: Maryland State Treasurer c/o Insurance Division
+      PaymentProfile:
+        _value: Default
+        InterestRate: '0'
+        InterestType: simple
+        InterestPeriod: '0'
+        GracePeriod: '30'
+        DiscountRate: '0'
+        DiscountPeriod: '0'
+      Names: Dereck E. Davis
+    Defendant'sInsuranceCompany:
+      Name: MTA - Transit Insurance Group
+      Prefix: ''
+      FirstName: ''
+      MiddleName: ''
+      MiddleInitial: ''
+      LastName: ''
+      DateOfBirth: ''
+      TrustBalance: '0'
+      OperatingBalance: '0'
+      Address:
+        _value: 159 Bank Street, Fourth Floor
+        Street: 159 Bank Street, Fourth Floor
+        City: Burlington
+        State: VT
+        ZipCode: '5401'
+        Country: United States
+      PrimaryBillingAddress: ''
+      PrimaryWorkAddress:
+        _value: 159 Bank Street, Fourth Floor
+        Street: 159 Bank Street, Fourth Floor
+        City: Burlington
+        State: VT
+        ZipCode: '5401'
+        Country: United States
+      PrimaryHomeAddress: ''
+      PrimaryOtherAddress: ''
+      PhoneNumber:
+        _value: 410-454-7310
+        Number: 410-454-7310
+      PrimaryWorkPhoneNumber:
+        _value: 410-454-7310
+        Number: 410-454-7310
+      PrimaryHomePhoneNumber: ''
+      PrimaryOtherPhoneNumber: ''
+      PrimaryMobilePhoneNumber: ''
+      PrimaryFaxNumber:
+        _value: 330-336-7130
+        Number: 330-336-7130
+      CustomField:
+        TivvisMatterNumber: ''
+        ContactHistory: ''
+        DriversLicenseIdNumber: ''
+        Deceased: ''
+        PreferredNamenickname: ''
+        BirthPlace: ''
+        ParentType: ''
+        Gender: ''
+        MaritalStatus: ''
+        MinorChild: ''
+        SocialMediaHandle: ''
+        SchoolDistricts: ''
+        SchoolLevel: ''
+        CourtLevel: ''
+        Jurisdiction: ''
+        DateOfDeath: ''
+        MethodOfCommunication: ''
+        IsDisabled:
+          _value: ''
+          Verbose: 'No'
+        HomeSchooled:
+          _value: ''
+          Verbose: 'No'
+        ClientWas: ''
+        County: ''
+        EmergencyContacts:
+          _value: ''
+          Verbose: 'No'
+        SocialSecurityNumber: ''
+        SchoolDistrict: ''
+        EmergencyContactName: ''
+        PoliceOfficer:
+          _value: ''
+          Verbose: 'No'
+        StaffPositiontitle: ''
+        StudentName: ''
+        AgeIncidentOccurred: ''
+        RelationshipToMinorstudent: ''
+        DoYouHaveSocialMedia:
+          _value: ''
+          Verbose: 'No'
+        CallingOnBehalfOf: ''
+        CallingOnBehalfOfSomeone:
+          _value: ''
+          Verbose: 'No'
+        CallersName: ''
+        RelationshipToStudent: ''
+        SchoolType: ''
+        SchoolName: ''
+      Email:
+        _value: ''
+        Work: ''
+        Home: ''
+        Other: ''
+      CompanyName: ''
+      PaymentProfile:
+        _value: Default
+        InterestRate: '0'
+        InterestType: simple
+        InterestPeriod: '0'
+        GracePeriod: '30'
+        DiscountRate: '0'
+        DiscountPeriod: '0'
+      Names: MTA - Transit Insurance Group
+  ContactAssociations: ''
+Date:
+  _value: '45754'
+  Verbose: '45754'
+  Year: '2025'
+  Month: '4'
+  Day: '7'
+  VerboseMonth: April
+  OrdinalDay: 7th
+User:
+  _value: Ledyard  Law LLC
+  Name: Ledyard  Law LLC
+  JobTitle:
+    _value: Other Timekeeper [OT]
+    Name: Other Timekeeper
+    Initials: OT
+  Email: accounts@ledyardlaw.com
+  Initials: LLL
+  PhoneNumber: ''
+  Address:
+    _value: ''
+    Street: ''
+    City: ''
+    State: ''
+    ZipCode: ''
+    Country: ''
+  Rate: '0'
+Firm:
+  Name: Ledyard Law LLC
+  Address:
+    _value: 36 South Charles Street, Suite 901
+    Street: 36 South Charles Street, Suite 901
+    City: Baltimore
+    State: Maryland
+    ZipCode: 21201-3020
+    Country: United States
+  Phone:
+    _value: 410-807-8077
+    Number: 410-807-8077
+  FaxNumber: 410-807-8076
+  Email: office@ledyardlaw.com
+  Website: http://www.ledyardlaw.com
+Owner:
+  _value: David Ledyard
+  Name: David Ledyard
+  JobTitle:
+    _value: Partner [PT]
+    Name: Partner
+    Initials: PT
+  Email: david@ledyardlaw.com
+  Initials: DLM
+  PhoneNumber: (410) 807-8077
+  Address:
+    _value: 36 South Charles Street, Suite 901
+    Street: 36 South Charles Street, Suite 901
+    City: Baltimore
+    State: Maryland
+    ZipCode: 21201-3020
+    Country: United States
+  Rate: '400'

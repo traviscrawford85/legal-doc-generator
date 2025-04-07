@@ -1,5 +1,4 @@
 schema: pip_letter_of_representation
-
 required_fields:
   - Matter.Client.Name
   - Matter.Custom.DateOfLoss
