@@ -1,35 +1,58 @@
-# Byte-compiled / optimized / DLL files
+# 🧠 Python cache and compiled files
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
-# Virtual environment
+# 🔁 Virtual environments
 .venv/
+venv/
 env/
 ENV/
 
-# VS Code settings
+# ⚙️ IDE & editor settings
 .vscode/
+.idea/
+.env
 
-# Mac/Linux system files
+# 💻 System files
 .DS_Store
 Thumbs.db
 
-# Logs and temp files
+# 🧪 Test artifacts and coverage
+.pytest_cache/
+.coverage
+
+# 📄 Logs and temp
 *.log
 *.tmp
+*~$
 
-# YAML/JSON context files (optional)
+# 📊 Generated data
+*.xlsx
+*.xlsm
+*.json
+
+# 📂 Output folders (from tools)
+output/
+ocr_reports/
+test_output/
+Ruff, Eugene Test Output/
+categorized_summary.xlsx
+ruff_summary.xlsx
+
+# 📄 Optional DOCX/Jinja output
+output/*.docx
 content/*.yml
 content/*.yaml
 content/*.json
 
-# DOCX output (optional)
-output/*.docx
+# 🧩 Python package build artifacts
+build/
+dist/
+*.egg-info/
 
-# Unit test cache
-.pytest_cache/
-.coverage
+# 🧪 openpyxl dir if extracted manually
+openpyxl/
 
-# Local config
-.env
+README_old.md

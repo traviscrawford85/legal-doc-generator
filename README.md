@@ -1,65 +1,104 @@
 # 🧾 Legal Document Generator
 
-This is a modular, Python-based boilerplate project for generating legal documents using **Jinja2** templates, **YAML**-based style sheets, and `python-docx`. It's designed to help law firms like yours create standardized, styled documents (like Letters of Representation) that integrate with Clio Manage merge fields.
+A toolkit for automating legal document generation, classification, and template bootstrapping using DOCX, YAML, OCR, and NLP.
 
 ---
 
-## 📁 Project Structure
+## 🚀 Key Features
 
+### 📄 Template & Document Generator
+- Convert CSV to YAML context files
+- Validate Jinja templates against schemas and context
+- Generate DOCX from Jinja templates
 
+### ⚙️ Bootstrap Tools
+- Extract merge fields from DOCX templates
+- Auto-generate validation schemas and context stubs
+
+### 🔍 OCR + NLP Classifier (Integrated from submodules)
+- Detect and extract text from scanned PDFs and images
+- Classify documents by type (e.g., "Complaint", "Motion")
+- Summarize key entities (e.g., people, organizations, dates)
+- Export structured results to JSON or Excel
 
 ---
 
-## 🚀 How It Works
+## 🛠️ How to Use
 
-1. **Templates**: Written in Jinja2, using Clio merge field syntax (`<<Matter.Client.Name>>`)
-2. **Styles**: YAML files defining font, spacing, and alignment settings
-3. **Context**: YAML test data files (mimic a Clio Matter)
-4. **Script**: Renders Jinja2 + context, then applies styles to output `.docx`
-
----
-
-## ✅ Usage (Windows)
-
-1. Install Python 3.9+
-2. From the project directory, run:
-
+### 1. Bootstrap from Templates
 ```bash
-pip install -r requirements.txt
-python generator.py
+python tools/bootstrap_template_folder.py <TEMPLATE_FOLDER> --schemas schemas/ --contexts content/
+```
+Creates:
+- Schema files (YAML)
+- Context stubs
+
+### 2. Validate Template Setup
+```bash
+python tools/validate_doc.py --schema schemas/pip_lor.schema.yml --context content/pip_lor_context.yml --template templates/pip_letter.jinja
 
 ```
-3. Check the output/ directory for the generated .docx file. 
 
-## 🔄 Clio Merge Fields
+### 3. Classify & Summarize Documents
+```bash
+python -m tools.classify_documents --folder <FOLDER> --output ocr_reports --nlp-summary
+```
+Options:
+- `--file <FILE>` to run on a single file
+- `--rename-based-on-nlp` to rename based on contents
 
-Use Clio's merge field 
-syntax: (`<<Matter.Client.Name>>`) (`<<Matter.Custom.DateOfLoss>>`)
-
-You can test with content/example_context.yml, and later plug these templates directly into Clio Manage.
-
-## 🔧 Dependancies
-
-* ```python-docx``` - Word document creation
-* ```jinja2``` - Template engine
-* ```PyYAML``` - YAML parsing for context + style files
-
-## 🧠 Tips
-
-* Centralize style rules in styles/ to keep formatting consistent across docs
-* Reuse utils/ for signature blocks, headers, tables, etc.
-* Use the context files like test matters to preview formatting
-
-## 📌 Status
-
-🚧 In Progress
-Actively developing new templates, formatting controls, and CLI support.
-
+### 4. Summarize a Folder
+```bash
+python tools/summarize_documents.py --folder <FOLDER> --output summary.csv
+```
+Or generate an Excel workbook grouped by category:
+```bash
+python tools/categorize_documents.py --folder <FOLDER> --output categorized_summary.xlsx
+```
 
 ---
 
-👤 Author
-Travis Crawford
-IT Specialist | Legal Tech Developer
-📧 solutionpartner@cfelab.com |
-[linkedin](https://www.linkedin.com/in/crawford-t)
+## 📦 Project Structure
+```
+legal-doc-generator/
+├── tools/
+│   ├── bootstrap_template_folder.py
+│   ├── validate_doc.py
+│   ├── classify_documents.py
+│   ├── summarize_documents.py
+│   ├── categorize_documents.py
+│   └── ocr/          ← doc-ocr-clio submodule
+│   └── nlp_parser/   ← nlp-legal-parser submodule
+├── content/          ← YAML context files
+├── schemas/          ← Schema definitions
+├── templates/        ← DOCX/Jinja templates
+└── requirements.txt
+```
+
+---
+
+## 📘 CHANGELOG
+
+### Added
+- `classify_documents.py` with support for OCR/NLP analysis
+- NLP summarizer + auto file renaming based on contents
+- `bootstrap_template_folder.py` to generate schemas and contexts
+- Excel + CSV output summaries for batch document analysis
+
+### Fixed
+- Windows path quoting issues for file/subprocess handling
+- UTF-8 loading errors on DOCX templates with Clio merge fields
+- Skipping unsupported file types during classification
+
+### Improved
+- `.gitignore` for clean development environments
+- Submodule structure for OCR/NLP tools
+- Output folder naming and error handling on file locks
+
+---
+
+## ✅ Next Steps
+- Integrate Clio API tagging + auto-relocation
+- Build a GUI or shell menu interface
+- Add support for PDF categorization via Clio document types
+
